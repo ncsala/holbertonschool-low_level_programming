@@ -1,5 +1,5 @@
 #include<unistd.h>
-
+#include<string.h>
 /**
  *  main - prints to standard error
  *
@@ -9,7 +9,7 @@
 int main(void)
 {
 	char texto[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-write(2, texto, strlen(texto);
+	write(2, texto, strlen(texto));
 	return (1);
 }
 
