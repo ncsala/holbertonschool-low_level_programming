@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /*
- *Write a C program that prints exactly \"Programming is like building a multilingual puzzlee
+ *Prints exactly \"Programming is like building a multilingual puzzlee
  */
 
 int main(void)
