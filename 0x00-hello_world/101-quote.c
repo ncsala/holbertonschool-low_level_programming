@@ -1,7 +1,8 @@
 #include<unistd.h>
 #include<string.h>
+
 /**
- *  main - prints to standard error
+ *  main - prints to standard err
  *
  *  Return: 1
  */
