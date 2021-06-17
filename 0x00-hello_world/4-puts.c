@@ -1,7 +1,6 @@
 #include<stdio.h>
 
-/*
- *main - Prints exactly \"Programming is like building a multilingual puzzlee
+/*main - Prints exactly \"Programming is like building a multilingual puzzlee
  */
 
 int main(void)
