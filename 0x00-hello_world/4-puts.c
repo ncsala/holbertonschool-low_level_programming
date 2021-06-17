@@ -2,6 +2,8 @@
 
 /*
  * main - Prints exactly \"Programming is like building a multilingual puzzlee
+ *
+ * Return: returns 0
  */
 
 int main(void)
