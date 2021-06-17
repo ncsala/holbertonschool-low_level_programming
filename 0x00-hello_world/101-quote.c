@@ -2,7 +2,7 @@
 #include<string.h>
 
 /**
- *  main - prints to standard err
+ *  main - prints to stand err
  *
  *  Return: 1
  */
