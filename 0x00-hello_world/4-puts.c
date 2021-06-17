@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /*
- * main - Prints exactly Programming is like building a multilingual puzzlee
+ * main - Prints a string
  *
  */
 
