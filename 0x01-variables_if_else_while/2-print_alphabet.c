@@ -16,5 +16,6 @@ int main(void)
 	} while (alphabet <= 'z');
 	putchar('\n');
 	return (0);
+
 }
 
