@@ -12,7 +12,6 @@ int main(void)
 
 	do {
 		putchar(alphabet);
-		putchar('\n');
 		alphabet++;
 	} while (alphabet < 'z');
 
