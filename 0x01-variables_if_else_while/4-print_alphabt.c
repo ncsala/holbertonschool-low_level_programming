@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main -
+ * main - prints alphabet except q and e
  * Return: 0
  */
 
