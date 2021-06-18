@@ -1,11 +1,9 @@
 #include<stdio.h>
-
 /**
  * main - prints the alphabet
  * 
  * Return: 0
  */
-
 int main(void)
 {
 	char alphabet = 'a';
@@ -15,7 +13,6 @@ int main(void)
 		alphabet++;
 	} while (alphabet <= 'z');
 	putchar('\n');
-
 	return (0);
 }
 
