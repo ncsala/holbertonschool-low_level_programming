@@ -20,7 +20,6 @@ int main(void)
 		putchar(alphabet);
 		alphabet++;
 	} while (alphabet <= 'Z');
-	
 	putchar('\n');
         return (0);
 }
