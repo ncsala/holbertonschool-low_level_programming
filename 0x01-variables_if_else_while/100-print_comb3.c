@@ -12,11 +12,11 @@
 
 int main(void)
 {
-	int ones = '0', tens = '0';
+	int ones, tens = '0';
 
 	for (; tens <= '9'; tens++)
 	{
-		for (ones = tens + 1; ones <= '9'; ones++)
+		for (ones = (tens + 1); ones <= '9'; ones++)
 		{
 			putchar(tens);
 			putchar(ones);
@@ -26,6 +26,7 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
+			
 
 		}
 
