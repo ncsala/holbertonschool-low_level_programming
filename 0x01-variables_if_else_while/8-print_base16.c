@@ -12,7 +12,7 @@ int main(void)
 	do {
 		putchar(hexa);
 		hexa++;
-	} while (hexa < 58);	
+	} while (hexa < 58);
 	hexa = 97;
 	do {
 		putchar(hexa);
