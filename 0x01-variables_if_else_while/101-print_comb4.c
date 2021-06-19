@@ -21,7 +21,7 @@ int hundreds = '0', tens = '0', ones = '1';
 				putchar(tens);
 				putchar(ones);
 				ones += 1;
-				if (tens <= '9')
+				if (hundreds < '7')
 				{
 					putchar(',');
 					putchar(' ');
