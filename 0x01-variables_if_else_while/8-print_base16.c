@@ -2,6 +2,7 @@
 
 /**
  * main - prints
+ *
  * Return: 0
  */
 
@@ -14,6 +15,7 @@ int main(void)
 		hexa++;
 	} while (hexa < 58);
 	hexa = 97;
+
 	do {
 		putchar(hexa);
 		hexa++;
