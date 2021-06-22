@@ -9,6 +9,15 @@
  * Returns: value of the last digit.
  */
 
+int main(void)
+{
+	print_last_digit(-163);
+	putchar('\n');
+	return (0);
+
+}
+
+
 int print_last_digit(int n)
 {
 	if (n < 0)
