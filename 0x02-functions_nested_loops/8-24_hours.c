@@ -1,10 +1,11 @@
 #include "holberton.h"
 
 /**
- * jack_bauer - Printajslkfjlaskfj laksdjflk asl kef lskajf 
- * 
+ * jack_bauer - Printajslkfjlaskfj laksdjflk asl kef lskaj
+ *
  * Return: no return
  */
+
 
 void jack_bauer(void)
 {
