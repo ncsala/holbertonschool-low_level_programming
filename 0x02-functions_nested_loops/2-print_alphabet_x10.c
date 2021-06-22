@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 	int alltheletters = 97;
 	int contador = 1;
 
-	for (; contador < 10; contador++)
+	for (; contador <= 10; contador++)
 	{
 		while (alltheletters <= 122)
 		{
