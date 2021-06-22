@@ -1,7 +1,8 @@
 #include "holberton.h"
 
 /**
- * int _isalpha - checks for alphabetic character.
+ * int _isalpha - Write a function that checks for alphabetic character
+ *
  * @c: ASCII from a to z and A to Z
  *
  * Return: Returns 1 if c is a letter, lowercase or uppercase
