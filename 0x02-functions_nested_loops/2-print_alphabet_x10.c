@@ -1,7 +1,8 @@
 #include "holberton.h"
 
 /*
- * print_alphabet_x10 - prins alphabet 10 times
+ * print_alphabet_x10 - prints alphabet 10 times
+ *
  */
 
 void print_alphabet_x10(void)
@@ -17,7 +18,7 @@ void print_alphabet_x10(void)
 			alltheletters += 1;
 		}
 		alltheletters = 97;
-		
+
 		_putchar('\n');
 	}
 }
