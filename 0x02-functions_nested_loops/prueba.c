@@ -1,12 +1,7 @@
-#include "holberton.c"
+#include<stdio.h>
 
-/**
- * jack_bauer - Printajslkfjlaskfj laksdjflk asl kef lskajf 
- * 
- * Return: no return
- */
 
-void jack_bauer(void)
+int main(void)
 {
 	int a, b, c, d;
 
