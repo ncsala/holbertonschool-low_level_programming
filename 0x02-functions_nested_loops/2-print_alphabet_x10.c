@@ -2,8 +2,6 @@
 
 /**
  * print_alphabet_x10 - Prints alphabet 10 times
- * @alltheletters: all the alphabet
- *
  */
 
 void print_alphabet_x10(void)
