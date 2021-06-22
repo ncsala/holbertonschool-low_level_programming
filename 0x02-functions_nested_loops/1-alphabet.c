@@ -1,4 +1,4 @@
-#include "holberton."
+#include "holberton.c"
 
 /**
  * main - prints alphabet in lowercase using functions
