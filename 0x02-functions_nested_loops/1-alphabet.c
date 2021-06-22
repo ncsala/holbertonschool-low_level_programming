@@ -2,7 +2,6 @@
 
 /**
  * main - prints alphabet in lowercase using functions
- * Return: 0
  */
 
 void print_alphabet(void)
@@ -15,7 +14,5 @@ void print_alphabet(void)
 	} while (alltheletters <= 'z');
 
 	_putchar('\n');
-
-	return (0);
 }
 
