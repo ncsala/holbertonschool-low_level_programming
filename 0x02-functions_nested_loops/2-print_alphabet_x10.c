@@ -2,7 +2,7 @@
 
 /*
  * print_alphabet_x10 - prints alphabet 10 times
- *
+ * @alltheletters: all the alphabet
  */
 
 void print_alphabet_x10(void)
