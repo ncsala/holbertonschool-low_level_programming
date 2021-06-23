@@ -23,7 +23,7 @@ void jack_bauer(void)
 					if (hour2 >= 50 && hour >= 52)
 					break;
 					_putchar(hour2);
-					_putchar(hour1);
+					_putchar(hour);
 					_putchar(58);
 					_putchar(min2);
 					_putchar(min);
