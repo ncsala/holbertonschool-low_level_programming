@@ -3,7 +3,6 @@
 /**
  * print_last_digit - prints the last digit of a number.
  * @n: given number
- * @residue: last digit
  *
  * Return: value of the last digit.
  */
