@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * print_last_digit: prints the last digit of a number.
+ * print_last_digit - prints the last digit of a number.
  * @n: given number
  * @residue: last digit
  *
- * Returns: value of the last digit.
+ * Return: value of the last digit.
  */
 
 int print_last_digit(int n)
@@ -14,9 +14,9 @@ int print_last_digit(int n)
 
 	if (n < 0)
 		residue *= -1;
-	
+
 	_putchar('0' + residue);
-	
-	return (residue);	
+
+	return (residue);
 }
 
