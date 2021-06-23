@@ -16,8 +16,8 @@ int main(void)
 		if ((r % 5) == 0 || (r % 3) == 0)
 		accumulator = accumulator + r;
 	}
-	
+
 	printf("%i\n", accumulator);
-	
+
 	return (0);
 }
