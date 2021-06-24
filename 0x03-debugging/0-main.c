@@ -2,7 +2,6 @@
 
 /**
  * main - this main file is a test for a postitive_or_negative() function
- * @i: integer number
  *
  * Return: 0
  */
