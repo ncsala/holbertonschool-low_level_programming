@@ -2,7 +2,6 @@
 
 /**
  * _isupper - Write a function that checks for uppercase character.
- * @r: save the retunr value
  * @c: input character
  * 
  * Return: 1 if c is uppercase 0 otherwise
