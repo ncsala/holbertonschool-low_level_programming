@@ -5,29 +5,21 @@
  * Return: void
  */
 
-int main(void)
-{
-	more_numbers();
-	return (0);
-}
-
 void more_numbers(void)
 {
-	int r = 0;
+	int r, s = 1;
 
-	for (; r < 15 ; r++)
+	while (s <= 10)
 	{
-		_putchar(r);
-		if (r > 9)
+		for (r = 0;  r < 15 ; r++)
 		{
-			_putchar((r / 10) + '0');
+			if (r > 9)
+				_putchar((r / 10) + '0');
+
 			_putchar((r % 10) + '0');
 		}
-		else
-		{
-			_putchar(r + '0');
-		}
-	_putchar('\n');
-	}
 
+		s++;
+		_putchar('\n');
+	}
 }
