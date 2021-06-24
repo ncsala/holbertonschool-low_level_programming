@@ -17,7 +17,7 @@ void times_table(void)
 		for (column = 1; column <= 9; column++)
 		{
 			outcome = row * column;
-			
+
 			_putchar(44);
 			_putchar(32);
 
@@ -34,7 +34,7 @@ void times_table(void)
 
 
 		}
-	
+
 	_putchar('\n');
 	}
 }
