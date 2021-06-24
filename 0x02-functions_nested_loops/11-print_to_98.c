@@ -9,18 +9,25 @@
 
 void print_to_98(int n)
 {
-	do {
-		printf("%i, ", n);
-		n = n + 1;
-	} while (n < 98);
 
-	do {
-		printf("%i, ", n);
-		n = n - 1;
-	} while (n > 98);
+	void print_to_98(int n)
+{
+	while (n < 98)
+	{
+		printf("%d, ", n);
+		n++;
+	}
+
+	while (n > 98)
+	{
+		printf("%d, ", n);
+		n--;
+	}
 
 	if (n == 98)
-		printf("%i", n);
+		printf("%d", n);
 
-	_putchar('\n');
+	printf("\n");
 }
+}
+
