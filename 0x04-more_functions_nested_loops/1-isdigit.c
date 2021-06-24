@@ -6,7 +6,7 @@
  * Return: Returns 1 if c is a digit and 0 otherwise
  */
 
-int __isdigit(int c)
+int _isdigit(int c)
 {
 	return (c > 47 && c < 58);
 }	
