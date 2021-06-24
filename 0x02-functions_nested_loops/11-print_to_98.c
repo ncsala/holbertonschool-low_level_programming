@@ -10,17 +10,17 @@
 void print_to_98(int n)
 {
 	do {
-		printf("%d, ", n);
+		printf("%i, ", n);
 		n = n + 1;
 	} while (n < 98);
 
 	do {
-		printf("d, ", n);
+		printf("%i, ", n);
 		n = n - 1;
 	} while (n > 98);
 
 	if (n == 98)
-		printf("%d", n);
+		printf("%", n);
 
 	_putchar('\n');
 }
