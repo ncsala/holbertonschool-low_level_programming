@@ -1,7 +1,8 @@
 #include "holberton.h"
 
 /**
- * print_diagonal (int n)
+ * print_diagonal - print digonal
+ * @n: int number
  * Return: void
  */
 
