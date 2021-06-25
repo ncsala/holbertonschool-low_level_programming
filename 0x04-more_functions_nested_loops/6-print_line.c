@@ -1,23 +1,25 @@
 #include "holberton.h"
 
 /**
- * print_diagonal (int n)
+ * print_line - Write a function that draws a straight line in the terminal.
+ * @n: integer number
  * Return: void
  */
 
-void print_diagonal(int n)
+void print_line(int n)
 {
-	int r = 0, s = 0;
+	int aux;
 
- 	if (n <= 0)
-		_putchar('\n');
-
-	while (n > 0)
+	if (n > 0)
 	{
-		while (s  > 0)
+		for (aux = 0; aux < n; aux++)
 		{
-			_putchar(' ');
-			i = i - 1;
-		}	
+		_putchar('_');
+		}
+
+	_putchar('\n');
 	}
+	else if (n <= 0)
+		_putchar('\n');
 }
+
