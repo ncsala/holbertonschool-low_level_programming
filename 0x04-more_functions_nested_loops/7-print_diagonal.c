@@ -6,25 +6,29 @@
  * Return: void
  */
 
+int main(void)
+{
+    print_diagonal(0);
+    print_diagonal(2);
+    print_diagonal(10);
+    print_diagonal(-4);
+    return (0);
+}
+
+
 void print_diagonal(int n)
 {
-	int i, j;
+	int aux, aux2;
 
-	if (n <= 0)
-		_putchar('\n');
-	for (i = 0; i < n; i++)
+
+	for (aux = 1; aux <= n; aux++)
 	{
-		for (j = 0; j <= i; j++)
+		for (aux2; aux2 < aux; aux2++)
 		{
-			if (i == j)
-			{
-				_putchar('\\');
-				_putchar('\n');
-			}
-			else
-			{
-				_putchar(' ');
-			}
+		_putchar('-');
+		_putchar('\\');	
 		}
 	}
+	_putchar('\n');
+
 }
