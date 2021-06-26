@@ -17,7 +17,7 @@ void print_diagonal(int n)
 		{
 			for (aux2 = 1; aux2 < aux; aux2++)
 				_putchar(' ');
-			_putchar('-');
+			_putchar(' ');
 			_putchar('\\');
 		}
 
