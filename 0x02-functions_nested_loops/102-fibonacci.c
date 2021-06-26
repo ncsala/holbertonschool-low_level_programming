@@ -14,7 +14,7 @@ int main(void)
 
 	do {
 		fn = num1 + num2;
-		printf(" ,%li", fn);
+		printf(", %li", fn);
 		num1 = num2;
 		num2 = fn;
 		counter += 1;
