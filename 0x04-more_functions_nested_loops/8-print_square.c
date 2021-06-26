@@ -10,14 +10,17 @@ void print_square(int size)
 {
 	int base, height;
 
-	for (height = 0; height < size; height++)
-	{
-		for (base = 0; base < size; base++)
-		{
-			_putchar('#');
-		}
+	if (size <= 0)
 		_putchar('\n');
-	}
+
+		for (height = 0; height < size; height++)
+		{
+			for (base = 0; base < size; base++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+		}
 }
 
 
