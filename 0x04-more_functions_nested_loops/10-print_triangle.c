@@ -8,19 +8,21 @@
 
 void print_triangle(int size)
 {
-	int spaces, height, triangle = 1;
+	int spaces, height, triangle;
 
 	if (size <= 0)
 		_putchar('\n');
 
 	for (height = 1; height <= size; height++)
 	{
-		for (spaces = size - height ; spaces >= 1; spaces--)
+		triangle = height;
+		for (spaces = size - triangle ; spaces >= 1; spaces--)
 		{
 			_putchar(' ');
 		}
 
-		for (triangle = 1; triangle  <= height; triangle++)
+		spaces = size - triangle;
+		for (triangle = 1; triangle  <= (size - spaces); triangle++)
 		{
 			_putchar('#');
 		}
