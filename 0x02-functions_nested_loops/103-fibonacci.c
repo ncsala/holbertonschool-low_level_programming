@@ -11,12 +11,8 @@ int main(void)
 
 	for (; fn <= 4000000;)
 	{
-		
-
 		fn = num1 + num2;
-		
 		num1 = num2;
-		
 		num2 = fn;
 		if ((num1 % 2) == 0)
 		{
