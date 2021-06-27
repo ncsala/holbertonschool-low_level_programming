@@ -7,20 +7,23 @@
 
 int main(void)
 {
-	int counter = 1;
-	unsigned int num1 = 1, num2 = 2, fn;
+	int a;
+	unsigned int f1, f2, fibo;
 
-	printf("%u, %u", num1, num2);
-
-	do {
-		fn = num1 + num2;
-		printf(", %#x", fn);
-		num1 = num2;
-		num2 = fn;
-		counter += 1;
-	} while (counter <= 96);
-
+	f1 = 1;
+	f2 = 2;
+	for (a = 0; a < 98; a++)
+	{
+		printf("%#x", f1);
+		if (a != 97)
+		{
+			printf(", ");
+		}
+		fibo = f1 + f2;
+		f1 = f2;
+		f2 = fibo;
+	}
 	printf("\n");
-
 	return (0);
 }
+
